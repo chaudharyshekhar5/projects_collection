@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.my_projects {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 50px;
+  text-shadow: 2px 2px red;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.project {
+  background-color: antiquewhite;
+  border: 5px solid blue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px red;
+}
+.project_img {
+  width: 300px;
+  padding-top: 20px;
+}
+
+.project_link h3 {
+  margin-top: 10px;
+  text-decoration: none;
+  color: green;
+  background-color: rgb(224, 221, 221);
+  width: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
