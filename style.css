@@ -27,6 +27,13 @@
   border-radius: 6px;
   box-shadow: 2px 2px red;
 }
+.project:hover h1 {
+  text-shadow: 2px 1px yellow;
+  font-size: 30px;
+}
+.project:hover {
+  border: 2px solid orange;
+}
 .project_img {
   width: 300px;
   padding-top: 20px;
